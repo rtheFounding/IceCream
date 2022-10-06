@@ -1,0 +1,22 @@
+.container-fluid {
+    text-align: center;
+}   
+.row {
+    border-style: solid;
+}
+.boxes.row {
+    width: auto;
+    display: inline-block;
+}
+.boxes .col-sm-6 {
+    display: inline-block;
+    width: 400px;
+}
+#calculateOrder {
+    margin: 10px;
+    margin-bottom: 20px;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
