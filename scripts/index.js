@@ -45,7 +45,7 @@ function calculateTotal() {
     let taxAmount = toppingsAndScoopsTotal * (4 / 100);
     const tax = document.getElementById("tax");
     tax.value = taxAmount;
-    let totalDue = numOfScoopsPrice + taxAmount;
+    let totalDue = toppingsAndScoopsTotal + taxAmount;
     const totalAmount = document.getElementById("totalAmount")
     totalAmount.value = "$" + totalDue.toFixed(2);
 }
