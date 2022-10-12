@@ -47,7 +47,7 @@ function calculateTotal() {
     tax.value = taxAmount;
     let totalDue = toppingsAndScoopsTotal + taxAmount;
     const totalAmount = document.getElementById("totalAmount")
-    totalAmount.value = "$" + totalDue.toFixed(2);
+    totalAmount.value = totalDue.toFixed(2);
 }
 
 function onHideOrShowToppings() {
